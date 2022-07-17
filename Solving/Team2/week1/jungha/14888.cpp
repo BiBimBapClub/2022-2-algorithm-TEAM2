@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<algorithm>
 #include<vector>
 using namespace std;
@@ -28,7 +28,7 @@ int main() {
 
 	order();
 	sort(result.begin(), result.end());
-	cout << result.back() << "\n";
+	cout << result.back() << endl;
 	cout << result.front();
 
 }
